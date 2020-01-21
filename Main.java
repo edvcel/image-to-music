@@ -19,7 +19,7 @@ public class Main {
 		File f = null;
 		
 	    try{
-	        f = new File("C:\\Temp\\Temp.png");
+	        f = new File("/home/pi/Java/image-to-music/.jpg");
 	        img = ImageIO.read(f);
 	    }catch(IOException e){
 	        System.out.println(e);
