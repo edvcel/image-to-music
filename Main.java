@@ -69,7 +69,7 @@ public class Main {
 			     	
 		     	mChannels[0].noteOff(arr.get(i));
 			}
-			scan.nextInt();
+			scan.next();
 		}
 	}
 	
